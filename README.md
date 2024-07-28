@@ -2,3 +2,5 @@
 
 
 #BQTableAudit.py runs through every dataset and pulls metadata for each table.  The output is in a .csv but it can be loaded back into a BQ table and using a data visualization tool such as Looker Studio can show trends in your BQ instances over time.
+
+#get-iam-policy.py runs the gcloud command get-iam-policy and then inputs the results into a BQ table.
